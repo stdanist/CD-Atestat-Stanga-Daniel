@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+.doi {
+    color: red;
+}
+
+</style>
+
+</head>
+<body>
+    
+<h1>cerere</h1>
+<p class="doi" id="paragraf1">paragraf1</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Amtrak_Auto_Train_52_Passing_Through_Guinea_Station%2C_Virginia.jpg/800px-Amtrak_Auto_Train_52_Passing_Through_Guinea_Station%2C_Virginia.jpg" id="imagine1"/>
+<button onclick="ceva()">schimba trenul</button>
+<button onclick="clasa1()">clasa</button>
+<script>
+
+
+
+function ceva(){
+ const img = document.getElementById ("imagine1");
+ img.src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0GwdklPaH9LS6-pgFe_6TkogGLdWrMfHnFw&s"
+
+
+}
+function clasa1() {
+    const paragraf = document.getElementById("paragraf")
+    paragraf.classList.toggle("paragraf")
+}
+
+// const suma = (a, b) => a + b;
+//         const produs = (a, b) => a * b;
+//         const diferenta = (a, b) => a - b;
+//         const impartire = (a, b) => a / b;
+
+//         const general = (a, b) => {
+//             console.log("suma: ", suma(a, b));
+//             console.log("produs: ", produs(a, b));
+//             console.log("diferenta: ", diferenta(a, b));
+//             console.log("impartire: ", impartire(a, b));
+//         }
+
+//         general(10, 5);
+
+
+
+</script>
+
+</body>
+</html>
