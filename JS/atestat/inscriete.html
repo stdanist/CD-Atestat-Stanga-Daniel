@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
+<style>
+
+    body{
+        width:100%;
+        height:100vh;
+        background-image: url("./b7.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+      }
+       body {
+        margin: 0;
+        font-family: "Bodoni Moda", serif;}
+      
+       .topnav {
+        overflow: hidden;
+        background-color: #000000;
+       }
+      
+      
+      
+       .topnav a {
+        float: left;
+        color: #F5EDED;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+       
+      
+      } 
+      
+      .topnav{
+                  display: flex;
+                  justify-content: end;
+                  width: 100%;
+                  gap: 20px;
+              }
+      
+      .topnav a:hover {
+        background-color: rgb(215, 35, 35);
+        color: #F5EDED;
+      }
+      
+      .topnav a.active {
+        background-color: #D72323;
+        color: #F5EDED;
+      }
+      ::placeholder {
+  color: #F5EDED;
+  opacity: 1; 
+}
+::-ms-input-placeholder { 
+  color: #F5EDED;
+}
+      .formular{
+margin-top: 20px;
+margin-left: 70px;
+
+      }
+      .nume{
+        border: 5px solid #D72323;
+background-color:#202020;
+border-radius: 10px;
+font-size: 20px;
+padding: 10px;
+
+
+      }
+      .prenume{
+        border: 5px solid #D72323;
+background-color: #202020;
+border-radius: 10px;
+font-size: 20px;
+margin-left: 100px;
+padding: 10px;
+      }
+      .username{
+        border: 5px solid #D72323;
+background-color: #202020;
+border-radius: 10px;
+font-size: 20px;
+margin-top: 50px;
+padding: 10px;
+
+      }
+      .email{
+        border: 5px solid #D72323;
+background-color: #202020;
+border-radius: 10px;
+font-size: 20px;
+margin-left: 100px;
+padding: 10px;
+
+      }
+      .parola{
+        border: 5px solid #D72323;
+background-color: #202020;
+border-radius: 10px;
+font-size: 20px;
+margin-top: 50px;
+padding: 10px;
+
+      }
+      .varsta{
+        border: 5px solid #D72323;
+background-color: #202020;
+border-radius: 10px;
+font-size: 20px;
+margin-left: 100px;
+padding: 10px;
+
+      }
+     
+    .devino{
+        margin-top: -500px;
+        margin-left: 770px;
+        font-size: 80px;
+        color: #F5EDED;
+    }
+.titlu{
+    color: #F5EDED;
+    margin-left: 290px;
+    font-size: 50px;
+}
+.vieti{
+    margin-top: -60px;
+        margin-left: 790px;
+        font-size: 60px;
+        color: #F5EDED;
+    }
+.formular input{
+    
+  color: #F5EDED;
+}
+.buton{
+  display: flex;
+    border: 5px solid #D72323;
+background-color: #e6fa77;
+border-radius: 10px;
+font-size: 20px;
+margin-left: 447px;
+margin-top: 238px;
+padding: 10px;
+padding-left:90px;
+padding-right: 99px;
+
+}
+.curss{
+
+  border: 5px solid #D72323;
+background-color: #202020;
+border-radius: 10px;
+font-size: 20px;
+margin-top: 50px;
+padding: 10px;
+
+}
+.img{
+  position: absolute;
+  width: 350px;
+  margin-left: 875px;
+  margin-top: -290px;
+}
+
+      
+      </style>
+
+</head>
+
+    <body style="background-color: #3E3636;">
+    
+
+        <div class="topnav">
+    
+            <img src="./Captură ecran (5).png" widh="60px" height="60px" />
+    
+            <a  href="./atestat.html">Acasa</a>
+            <a href="./cursuri.html">Cursuri Auto</a>
+            <a href="./manuale.html">Manuale si Chestionare</a>
+            <a class="active" href="./inscriete.html">Inscrie-te</a>
+            <a href="./aboutus.html">Despre noi</a>
+            
+          </div>
+    <h1 class="titlu">Înscrie-te</h1>
+    <form>
+      <div class="formular">
+        <input class="nume" type="text" name="nume" placeholder="Adăugați-vă numele"required>
+        <input class="prenume" type="text" name="prenume" placeholder="Adăugați-vă prenumele"required> <br>
+        <input class="username" type="text" name="username" placeholder="Adăugați-vă username-ul"required>
+        <input class="email" type="email" name="email" placeholder="Adăugați-vă email-ul"required> <br>
+        <input class="parola" type="password" name="parola" placeholder="Adăugați-vă parola"required> 
+        <input min="16" class="varsta" type="number" name="varsta" placeholder="Adăugați-vă vârsta "required> <br>
+        <input class="curss" type="text" name="cruss" placeholder="Adăugați-vă cursul"required>
+        
+          </div>
+
+      </div>
+
+
+    </div>
+  </form>
+<h1 class="devino">  Devino șoferul </h1>
+<h1 class="vieti">  propriei tale vieți!</h1>
+<button class="buton" type="submit"> Trimite-ți </button>
+<img class="img" src="./cropped_image (26).png">
+
+  
+   
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwNDd35qVj2j--rfF1dOyUu_5eUcH8EIp1XTuvHwcZUI8pWLYCz6oP5H9B_QE7TDgaJ/exec'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>
